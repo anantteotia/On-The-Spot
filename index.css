@@ -1,0 +1,21 @@
+.btn {
+  background-color: #2a265f;
+  /* background: url("bg.svg"), linear-gradient(to right, #43baff, #b835ff); */
+  border: 0;
+  border-radius: 50px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 16px;
+  padding: 15px 15px;
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  letter-spacing: 1px;
+}
+
+.course h2 {
+  letter-spacing: 1px;
+  margin: 10px 0;
+  max-width: 250px;
+  overflow-wrap: break-word;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <script src="login.js"></script>
+    <title>Signup</title>
+  </head>
+  <body>
+    <div class="bg-img"></div>
+
+    <div class="navbar">
+      <div class="nav-logo"><span class="logo-text">On The Spot</span></div>
+      <div class="nav-cta">
+        <a href="login.html">
+          <button class="nav-btn-login" href="login.html">login</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="hero">
+        <div class="hero-cta">
+          <div>
+            <p>On The Spot</p>
+            <span>Find your travel mate</span>
+          </div>
+          <button class="cta-button" onclick="scrollToSectionTwo()">
+            Get Started
+          </button>
+        </div>
+        <div class="hero-img">
+          <img src="hero-img.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div id="section-2" class="section">
+      <div>
+        <div class="background">
+          <div class="shape"></div>
+          <div class="shape"></div>
+        </div>
+        <form id="form" action="signup.php" method="post">
+          <h3>Signup</h3>
+          <label for="username">Name</label>
+          <input
+            type="text"
+            placeholder="Name"
+            name="name"
+            id="username"
+            required
+          />
+          <label for="username">Email</label>
+          <input
+            type="email"
+            placeholder="Email"
+            name="email"
+            id="username"
+            required
+          />
+          <label for="username">Contact No</label>
+          <input
+            type="number"
+            placeholder="Contact No"
+            name="number"
+            id="username"
+            required
+          />
+          <label for="username">Username</label>
+          <input
+            type="text"
+            placeholder="Username"
+            name="username"
+            id="username"
+            required
+          />
+          <label for="password">Password</label>
+          <input
+            type="password"
+            placeholder="Password"
+            id="password"
+            name="password"
+            required
+          />
+          <div class="msg-div"><span id="message"></span></div>
+          <div class="form-btns">
+            <button id="btn-login" type="submit" class="form-btn-login">
+              SIGNUP
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
